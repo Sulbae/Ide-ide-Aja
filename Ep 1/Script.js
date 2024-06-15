@@ -10,7 +10,7 @@ function tagPeopleOnCondition() {
   var emailTerkirim_column = header.indexOf('Email Terkirim');
 
   if (status_column === -1 || email_column === -1 || name_column === -1|| emailTerkirim_column === -1) {
-    Logger.log('Status, Email, Name, or Email Terkirim column not found.');
+    Logger.log('Status, Email, Pemohon, or Email Terkirim column not found.');
     return;
   }
 
